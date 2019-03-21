@@ -1,0 +1,429 @@
+---------------------------------------------------------------
+[ 2018-11-13T22:01:13+08:00 ] 127.0.0.1 GET www.oa.com/
+[运行时间：0.065004s] [吞吐率：15.38req/s] [内存消耗：1,363.73kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\kecheng\thinkphp\OAofficeSystem\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ace_settings=%7B%22sidebar-collapsed%22%3A-1%7D; pgv_pvi=1614578688',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'purpose' => 'prefetch',
+  'connection' => 'close',
+  'host' => 'www.oa.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\my\kecheng\thinkphp\OAofficeSystem\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-13T22:14:25+08:00 ] 127.0.0.1 GET www.oa.com/
+[运行时间：0.039002s] [吞吐率：25.64req/s] [内存消耗：1,363.56kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\kecheng\thinkphp\OAofficeSystem\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ace_settings=%7B%22sidebar-collapsed%22%3A-1%7D; pgv_pvi=1614578688; PHPSESSID=fngho6n76nvvm54qh0p45idl03',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'purpose' => 'prefetch',
+  'connection' => 'close',
+  'host' => 'www.oa.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\my\kecheng\thinkphp\OAofficeSystem\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-13T22:14:26+08:00 ] 127.0.0.1 GET www.oa.com/
+[运行时间：0.028001s] [吞吐率：35.71req/s] [内存消耗：1,363.46kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\kecheng\thinkphp\OAofficeSystem\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ace_settings=%7B%22sidebar-collapsed%22%3A-1%7D; pgv_pvi=1614578688; PHPSESSID=fngho6n76nvvm54qh0p45idl03',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oa.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\my\kecheng\thinkphp\OAofficeSystem\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-13T22:14:28+08:00 ] 127.0.0.1 GET www.oa.com/login/index.html
+[运行时间：0.028002s] [吞吐率：35.71req/s] [内存消耗：1,354.36kb] [文件加载：42]
+[ info ] [ LANG ] D:\my\kecheng\thinkphp\OAofficeSystem\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ace_settings=%7B%22sidebar-collapsed%22%3A-1%7D; pgv_pvi=1614578688; PHPSESSID=fngho6n76nvvm54qh0p45idl03',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oa.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oa.com',
+)
+[ info ] [ PARAM ] array (
+  'login/index_html' => '',
+)
+[ info ] [ RUN ] app\oa\controller\Login->index[ D:\my\kecheng\thinkphp\OAofficeSystem\application\oa\controller\Login.php ]
+[ info ] [ VIEW ] D:\my\kecheng\thinkphp\OAofficeSystem\public/../application/oa\view\.\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-13T22:14:28+08:00 ] 127.0.0.1 GET www.oa.com/login/showyzm.html
+[运行时间：0.030001s] [吞吐率：33.33req/s] [内存消耗：1,350.77kb] [文件加载：41]
+[ info ] [ LANG ] D:\my\kecheng\thinkphp\OAofficeSystem\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'login',
+    2 => 'showyzm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ace_settings=%7B%22sidebar-collapsed%22%3A-1%7D; pgv_pvi=1614578688; PHPSESSID=fngho6n76nvvm54qh0p45idl03',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oa.com/login/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.oa.com',
+)
+[ info ] [ PARAM ] array (
+  'login/showyzm_html' => '',
+)
+[ info ] [ RUN ] app\oa\controller\Login->showyzm[ D:\my\kecheng\thinkphp\OAofficeSystem\application\oa\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-13T22:18:59+08:00 ] 127.0.0.1 GET www.oa.com/
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：1,364.18kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\kecheng\thinkphp\OAofficeSystem\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ace_settings=%7B%22sidebar-collapsed%22%3A-1%7D; pgv_pvi=1614578688; PHPSESSID=fngho6n76nvvm54qh0p45idl03',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://39.108.221.28:8888/site',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oa.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\my\kecheng\thinkphp\OAofficeSystem\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-13T22:19:02+08:00 ] 127.0.0.1 GET www.oa.com/login/index.html
+[运行时间：0.027001s] [吞吐率：37.04req/s] [内存消耗：1,354.36kb] [文件加载：42]
+[ info ] [ LANG ] D:\my\kecheng\thinkphp\OAofficeSystem\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ace_settings=%7B%22sidebar-collapsed%22%3A-1%7D; pgv_pvi=1614578688; PHPSESSID=fngho6n76nvvm54qh0p45idl03',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oa.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oa.com',
+)
+[ info ] [ PARAM ] array (
+  'login/index_html' => '',
+)
+[ info ] [ RUN ] app\oa\controller\Login->index[ D:\my\kecheng\thinkphp\OAofficeSystem\application\oa\controller\Login.php ]
+[ info ] [ VIEW ] D:\my\kecheng\thinkphp\OAofficeSystem\public/../application/oa\view\.\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-13T22:19:02+08:00 ] 127.0.0.1 GET www.oa.com/login/showyzm.html
+[运行时间：0.029002s] [吞吐率：34.48req/s] [内存消耗：1,350.74kb] [文件加载：41]
+[ info ] [ LANG ] D:\my\kecheng\thinkphp\OAofficeSystem\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'login',
+    2 => 'showyzm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ace_settings=%7B%22sidebar-collapsed%22%3A-1%7D; pgv_pvi=1614578688; PHPSESSID=fngho6n76nvvm54qh0p45idl03',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oa.com/login/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.oa.com',
+)
+[ info ] [ PARAM ] array (
+  'login/showyzm_html' => '',
+)
+[ info ] [ RUN ] app\oa\controller\Login->showyzm[ D:\my\kecheng\thinkphp\OAofficeSystem\application\oa\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-13T22:40:32+08:00 ] 127.0.0.1 GET www.oa.com/
+[运行时间：0.036002s] [吞吐率：27.78req/s] [内存消耗：1,364.03kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\kecheng\thinkphp\OAofficeSystem\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ace_settings=%7B%22sidebar-collapsed%22%3A-1%7D; pgv_pvi=1614578688; PHPSESSID=fngho6n76nvvm54qh0p45idl03',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'purpose' => 'prefetch',
+  'connection' => 'close',
+  'host' => 'www.oa.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\my\kecheng\thinkphp\OAofficeSystem\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-13T22:41:10+08:00 ] 127.0.0.1 GET www.oa.com/api/getinfo
+[运行时间：0.023002s] [吞吐率：43.47req/s] [内存消耗：1,111.71kb] [文件加载：37]
+[ info ] [ LANG ] D:\my\kecheng\thinkphp\OAofficeSystem\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'api',
+    2 => 'getinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ace_settings=%7B%22sidebar-collapsed%22%3A-1%7D; pgv_pvi=1614578688; PHPSESSID=fngho6n76nvvm54qh0p45idl03',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oa.com',
+)
+[ info ] [ PARAM ] array (
+  'api/getinfo' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-13T22:43:01+08:00 ] 127.0.0.1 GET www.oa.com/api
+[运行时间：0.027001s] [吞吐率：37.04req/s] [内存消耗：1,111.70kb] [文件加载：37]
+[ info ] [ LANG ] D:\my\kecheng\thinkphp\OAofficeSystem\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'api',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ace_settings=%7B%22sidebar-collapsed%22%3A-1%7D; pgv_pvi=1614578688; PHPSESSID=fngho6n76nvvm54qh0p45idl03',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oa.com',
+)
+[ info ] [ PARAM ] array (
+  'api' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-13T22:43:38+08:00 ] 127.0.0.1 GET www.oa.com/apiuser
+[运行时间：0.023001s] [吞吐率：43.48req/s] [内存消耗：1,111.71kb] [文件加载：37]
+[ info ] [ LANG ] D:\my\kecheng\thinkphp\OAofficeSystem\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'apiuser',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ace_settings=%7B%22sidebar-collapsed%22%3A-1%7D; pgv_pvi=1614578688; PHPSESSID=fngho6n76nvvm54qh0p45idl03',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oa.com',
+)
+[ info ] [ PARAM ] array (
+  'apiuser' => '',
+)
+[ info ] [ LOG ] INIT File

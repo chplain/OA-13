@@ -1,0 +1,158 @@
+---------------------------------------------------------------
+[ 2018-12-29T19:37:07+08:00 ] 127.0.0.1 GET www.oa.com/
+[运行时间：0.396221s] [吞吐率：2.52req/s] [内存消耗：1,840.36kb] [文件加载：49]
+[ info ] [ LANG ] D:\myBlog_web\houtai\OAofficeSystem\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.oa.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.2.2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\myBlog_web\houtai\OAofficeSystem\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-29T19:37:09+08:00 ] 127.0.0.1 GET www.oa.com/login/index.html
+[运行时间：0.073290s] [吞吐率：13.64req/s] [内存消耗：1,836.34kb] [文件加载：47]
+[ info ] [ LANG ] D:\myBlog_web\houtai\OAofficeSystem\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.oa.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7lo6bvp40e64897tuaki6162g3',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://www.oa.com/',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.2.2',
+)
+[ info ] [ PARAM ] array (
+  'login/index_html' => '',
+)
+[ info ] [ RUN ] app\oa\controller\Login->index[ D:\myBlog_web\houtai\OAofficeSystem\application\oa\controller\Login.php ]
+[ info ] [ VIEW ] D:\myBlog_web\houtai\OAofficeSystem\public/../application/oa\view\.\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-29T19:37:09+08:00 ] 127.0.0.1 GET www.oa.com/login/showyzm.html
+[运行时间：0.127345s] [吞吐率：7.85req/s] [内存消耗：1,686.45kb] [文件加载：44]
+[ info ] [ LANG ] D:\myBlog_web\houtai\OAofficeSystem\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'login',
+    2 => 'showyzm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.oa.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7lo6bvp40e64897tuaki6162g3',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://www.oa.com/login/index.html',
+  'x-lantern-version' => '5.2.2',
+)
+[ info ] [ PARAM ] array (
+  'login/showyzm_html' => '',
+)
+[ info ] [ RUN ] app\oa\controller\Login->showyzm[ D:\myBlog_web\houtai\OAofficeSystem\application\oa\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-29T19:37:22+08:00 ] 127.0.0.1 POST www.oa.com/login/dologin.html
+[运行时间：0.252953s] [吞吐率：3.95req/s] [内存消耗：2,825.68kb] [文件加载：55]
+[ info ] [ LANG ] D:\myBlog_web\houtai\OAofficeSystem\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.oa.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-length' => '37',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cookie' => 'PHPSESSID=7lo6bvp40e64897tuaki6162g3',
+  'origin' => 'http://www.oa.com',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://www.oa.com/login/index.html',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.2.2',
+)
+[ info ] [ PARAM ] array (
+  'login/dologin_html' => '',
+  'user' => 'admin',
+  'password' => 'admin123',
+  'yzm' => 'teka',
+)
+[ info ] [ RUN ] app\oa\controller\Login->doLogin[ D:\myBlog_web\houtai\OAofficeSystem\application\oa\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'oaUser'@'localhost' (using password: YES)[D:\myBlog_web\houtai\OAofficeSystem\thinkphp\library\think\db\Connection.php:295]

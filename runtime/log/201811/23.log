@@ -1,0 +1,50 @@
+---------------------------------------------------------------
+[ 2018-11-23T20:09:53+08:00 ] 127.0.0.1 GET blog.oa.com/
+[运行时间：0.121515s] [吞吐率：8.23req/s] [内存消耗：2,411.59kb] [文件加载：56]
+[ info ] [ LANG ] D:\my\kecheng\thinkphp\OAofficeSystem\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'blog'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1614578688',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'blog.oa.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\blog\controller\Index->index[ D:\my\kecheng\thinkphp\OAofficeSystem\application\blog\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\my\kecheng\thinkphp\OAofficeSystem\public/../application/blog\view\index\index.html [ array (
+  0 => 'type',
+  1 => 'name',
+  2 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_bgtype` [ RunTime:0.008501s ]
+[ sql ] [ SQL ] SELECT `id`,`type` FROM `oa_bgtype` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_member` [ RunTime:0.009501s ]
+[ sql ] [ SQL ] SELECT `id`,`member_name` FROM `oa_member` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_blog` [ RunTime:0.008501s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `oa_blog` `a` LEFT JOIN `oa_bgtype` `b` ON `a`.`type_id`=`b`.`id` LEFT JOIN `oa_member` `c` ON `a`.`add_userid`=`c`.`id` WHERE  `add_userid` IS NULL LIMIT 1 [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_blog` `a` LEFT JOIN `oa_bgtype` `b` ON `a`.`type_id`=`b`.`id` LEFT JOIN `oa_member` `c` ON `a`.`add_userid`=`c`.`id` WHERE  `add_userid` IS NULL LIMIT 0,10 [ RunTime:0.000500s ]

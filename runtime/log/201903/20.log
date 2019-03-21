@@ -1,0 +1,1587 @@
+---------------------------------------------------------------
+[ 2019-03-20T15:05:47+08:00 ] 127.0.0.1 GET myoa.com/index.php
+[运行时间：0.092961s] [吞吐率：10.76req/s] [内存消耗：2,512.36kb] [文件加载：52]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'oaUser'@'localhost' (using password: YES)[/Library/WebServer/Documents/os/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2019-03-20T15:05:48+08:00 ] 127.0.0.1 GET myoa.com/index.php
+[运行时间：0.024634s] [吞吐率：40.59req/s] [内存消耗：2,513.15kb] [文件加载：52]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'oaUser'@'localhost' (using password: YES)[/Library/WebServer/Documents/os/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2019-03-20T15:05:49+08:00 ] 127.0.0.1 GET myoa.com/index.php
+[运行时间：0.021977s] [吞吐率：45.50req/s] [内存消耗：2,513.15kb] [文件加载：52]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'oaUser'@'localhost' (using password: YES)[/Library/WebServer/Documents/os/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2019-03-20T15:05:49+08:00 ] 127.0.0.1 GET myoa.com/index.php
+[运行时间：0.026565s] [吞吐率：37.64req/s] [内存消耗：2,513.15kb] [文件加载：52]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'oaUser'@'localhost' (using password: YES)[/Library/WebServer/Documents/os/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2019-03-20T15:11:01+08:00 ] 127.0.0.1 GET myoa.com/index.php
+[运行时间：0.077750s] [吞吐率：12.86req/s] [内存消耗：2,567.79kb] [文件加载：56]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000621s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tp.oa_groups' doesn't exist[/Library/WebServer/Documents/os/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2019-03-20T15:11:02+08:00 ] 127.0.0.1 GET myoa.com/index.php
+[运行时间：0.024861s] [吞吐率：40.22req/s] [内存消耗：2,567.79kb] [文件加载：56]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000918s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tp.oa_groups' doesn't exist[/Library/WebServer/Documents/os/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2019-03-20T15:13:52+08:00 ] 127.0.0.1 GET myoa.com/index.php
+[运行时间：0.034830s] [吞吐率：28.71req/s] [内存消耗：2,562.58kb] [文件加载：56]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000453s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.002307s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'permission' in 'field list'[/Library/WebServer/Documents/os/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2019-03-20T15:51:27+08:00 ] 127.0.0.1 GET myoa.com/index.php
+[运行时间：0.027655s] [吞吐率：36.16req/s] [内存消耗：2,583.62kb] [文件加载：57]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000482s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001699s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000548s ]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tp.oa_rule' doesn't exist[/Library/WebServer/Documents/os/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2019-03-20T15:51:28+08:00 ] 127.0.0.1 GET myoa.com/index.php
+[运行时间：0.026806s] [吞吐率：37.31req/s] [内存消耗：2,583.62kb] [文件加载：57]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000645s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.002428s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000449s ]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tp.oa_rule' doesn't exist[/Library/WebServer/Documents/os/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2019-03-20T15:52:50+08:00 ] 127.0.0.1 GET myoa.com/index.php
+[运行时间：0.025927s] [吞吐率：38.57req/s] [内存消耗：2,577.94kb] [文件加载：57]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000466s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001497s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.001106s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_show' in 'where clause'[/Library/WebServer/Documents/os/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2019-03-20T15:55:23+08:00 ] 127.0.0.1 GET myoa.com/index.php
+[运行时间：0.071135s] [吞吐率：14.06req/s] [内存消耗：2,625.61kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000741s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001556s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = '1'  AND `status` = '1' [ RunTime:0.002405s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T15:55:47+08:00 ] 127.0.0.1 GET myoa.com/
+[运行时间：0.028051s] [吞吐率：35.65req/s] [内存消耗：2,625.09kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000517s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001381s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = '1'  AND `status` = '1' [ RunTime:0.000399s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T15:55:58+08:00 ] 127.0.0.1 GET myoa.com/index
+[运行时间：0.026986s] [吞吐率：37.06req/s] [内存消耗：2,625.09kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000494s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001257s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = '1'  AND `status` = '1' [ RunTime:0.000453s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T15:56:14+08:00 ] 127.0.0.1 GET myoa.com/index/index
+[运行时间：0.026381s] [吞吐率：37.91req/s] [内存消耗：2,625.55kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000514s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001777s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.001018s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = '1'  AND `status` = '1' [ RunTime:0.000423s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T15:56:32+08:00 ] 127.0.0.1 GET myoa.com/index/index.php
+[运行时间：0.012262s] [吞吐率：81.55req/s] [内存消耗：1,272.55kb] [文件加载：37]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'index.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-20T15:56:44+08:00 ] 127.0.0.1 GET myoa.com/index/index/index
+[运行时间：0.026401s] [吞吐率：37.88req/s] [内存消耗：2,625.88kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000537s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001595s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = '1'  AND `status` = '1' [ RunTime:0.000419s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T15:56:48+08:00 ] 127.0.0.1 GET myoa.com/index/index
+[运行时间：0.026823s] [吞吐率：37.28req/s] [内存消耗：2,625.55kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000564s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001564s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.001121s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = '1'  AND `status` = '1' [ RunTime:0.000424s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T15:56:53+08:00 ] 127.0.0.1 GET myoa.com/index/index.html
+[运行时间：0.025683s] [吞吐率：38.94req/s] [内存消耗：2,625.63kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000485s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001406s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = '1'  AND `status` = '1' [ RunTime:0.000547s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T15:57:01+08:00 ] 127.0.0.1 GET myoa.com/index/index.php
+[运行时间：0.013055s] [吞吐率：76.60req/s] [内存消耗：1,272.55kb] [文件加载：37]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'index.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-20T15:57:15+08:00 ] 127.0.0.1 GET myoa.com/index/Index
+[运行时间：0.026170s] [吞吐率：38.21req/s] [内存消耗：2,625.55kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'Index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000510s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001891s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = '1'  AND `status` = '1' [ RunTime:0.000411s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T15:57:23+08:00 ] 127.0.0.1 GET myoa.com/index/index/Index
+[运行时间：0.029530s] [吞吐率：33.86req/s] [内存消耗：2,625.88kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'index',
+    2 => 'Index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000787s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001809s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.001012s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = '1'  AND `status` = '1' [ RunTime:0.000541s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T15:57:29+08:00 ] 127.0.0.1 GET myoa.com/index/index/index.php
+[运行时间：0.025084s] [吞吐率：39.87req/s] [内存消耗：2,617.64kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'index',
+    2 => 'index.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000535s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001181s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.001052s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = '1'  AND `status` = '1' [ RunTime:0.000423s ]
+---------------------------------------------------------------
+[ 2019-03-20T15:58:25+08:00 ] 127.0.0.1 GET myoa.com/index/index/index.php
+[运行时间：0.027110s] [吞吐率：36.89req/s] [内存消耗：2,619.14kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'index',
+    2 => 'index.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000531s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001375s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = '1'  AND `status` = '1' [ RunTime:0.000516s ]
+---------------------------------------------------------------
+[ 2019-03-20T16:03:31+08:00 ] 127.0.0.1 GET myoa.com/
+[运行时间：0.026165s] [吞吐率：38.22req/s] [内存消耗：2,625.09kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000542s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001290s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.001072s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = '1'  AND `status` = '1' [ RunTime:0.000423s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T16:03:44+08:00 ] 127.0.0.1 GET myoa.com/
+[运行时间：0.028616s] [吞吐率：34.95req/s] [内存消耗：2,625.09kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000617s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001233s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.001230s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = '1'  AND `status` = '1' [ RunTime:0.000429s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T17:02:51+08:00 ] 127.0.0.1 GET myoa.com/
+[运行时间：0.054257s] [吞吐率：18.43req/s] [内存消耗：2,625.59kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000708s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001580s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.001336s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = '1'  AND `status` = '1' [ RunTime:0.000660s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T17:12:30+08:00 ] 127.0.0.1 GET myoa.com/
+[运行时间：0.027854s] [吞吐率：35.90req/s] [内存消耗：2,627.26kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000506s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001269s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.000895s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = 1  AND `status` = 1 [ RunTime:0.000477s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T17:12:39+08:00 ] 127.0.0.1 GET myoa.com/index.php
+[运行时间：0.026684s] [吞吐率：37.48req/s] [内存消耗：2,626.78kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000617s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001421s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.000983s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = 1  AND `status` = 1 [ RunTime:0.000438s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T17:12:43+08:00 ] 127.0.0.1 GET myoa.com/index
+[运行时间：0.025911s] [吞吐率：38.59req/s] [内存消耗：2,626.76kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000525s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001236s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.000963s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = 1  AND `status` = 1 [ RunTime:0.000444s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T17:12:50+08:00 ] 127.0.0.1 GET myoa.com/index/index
+[运行时间：0.025985s] [吞吐率：38.48req/s] [内存消耗：2,627.23kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000536s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001199s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.001219s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = 1  AND `status` = 1 [ RunTime:0.000535s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T17:13:02+08:00 ] 127.0.0.1 GET myoa.com/index/index.php
+[运行时间：0.058099s] [吞吐率：17.21req/s] [内存消耗：1,272.55kb] [文件加载：37]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'index.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-20T17:13:11+08:00 ] 127.0.0.1 GET myoa.com/index/index.html
+[运行时间：0.026745s] [吞吐率：37.39req/s] [内存消耗：2,627.30kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001186s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.000945s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = 1  AND `status` = 1 [ RunTime:0.000381s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T17:13:14+08:00 ] 127.0.0.1 GET myoa.com/index/index.php
+[运行时间：0.013802s] [吞吐率：72.45req/s] [内存消耗：1,274.16kb] [文件加载：37]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'index.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'purpose' => 'prefetch',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-20T17:13:54+08:00 ] 127.0.0.1 GET myoa.com/index/index
+[运行时间：0.025309s] [吞吐率：39.51req/s] [内存消耗：2,627.23kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000732s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001205s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.000890s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = 1  AND `status` = 1 [ RunTime:0.000446s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T17:13:57+08:00 ] 127.0.0.1 GET myoa.com/index
+[运行时间：0.027393s] [吞吐率：36.51req/s] [内存消耗：2,626.76kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.3.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000468s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.001494s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = 1  AND `status` = 1 [ RunTime:0.000444s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T22:35:52+08:00 ] 127.0.0.1 GET myoa.com/index
+[运行时间：0.343775s] [吞吐率：2.91req/s] [内存消耗：2,626.75kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.072294s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.042611s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.001649s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.005436s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = 1  AND `status` = 1 [ RunTime:0.004519s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T22:36:00+08:00 ] 127.0.0.1 GET myoa.com/index/index
+[运行时间：0.043171s] [吞吐率：23.16req/s] [内存消耗：2,626.66kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ /Library/WebServer/Documents/os/application/oa/controller/Index.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000810s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.004071s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = 1  AND `status` = 1 [ RunTime:0.001046s ]
+[ error ] [0]模板文件不存在:[/Library/WebServer/Documents/os/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2019-03-20T22:37:41+08:00 ] 127.0.0.1 GET myoa.com/index/login
+[运行时间：0.067547s] [吞吐率：14.80req/s] [内存消耗：1,723.09kb] [文件加载：44]
+[ info ] [ LANG ] /Library/WebServer/Documents/os/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'myoa.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=f7f26899650627aacbd2426435f5ebe3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\oa\controller\Login->index[ /Library/WebServer/Documents/os/application/oa/controller/Login.php ]
+[ info ] [ VIEW ] /Library/WebServer/Documents/os/public/../application/oa/view/./login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

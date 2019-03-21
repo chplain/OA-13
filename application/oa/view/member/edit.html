@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+{include file="common\head"}
+<body class="no-skin">
+	{include file="common\navbar"}
+	<div class="main-container" id="main-container">
+		{include file="common\sidebar"}
+		<div class="main-content">
+			<div class="main-content-inner">
+				<div class="breadcrumbs" id="breadcrumbs">
+					<ul class="breadcrumb">
+						<li>
+							<i class="ace-icon fa fa-home home-icon"></i>
+							<a href="index.html">首页</a>
+						</li>
+						<li>
+							<a href="{:url('member/index')}">用户管理</a>
+						</li>
+						<li class="active">修改用户</li>
+					</ul>
+				</div>
+				<div class="page-content">
+					<div class="row">
+						<div class="col-xs-12">
+							<form id="memberForm" class="form-horizontal" method="POST" enctype="multipart/form-data">
+								<input type="hidden" name="id" value="{$info['id']}">
+								<div class="form-group">
+									<label class="col-sm-1 control-label no-padding-right""> 用户组 </label>
+									<div class="col-sm-9">
+										<select class="rcol-xs-10 col-sm-5" name="group_id" required>
+											<option value="">请选择所属用户组</option>
+											{volist name="groups" id="value"}
+											<option value="{$value['id']}" {if condition="$info['group_id'] eq $value['id']"} selected {/if}>{$value['group_name']}</option>	
+											{/volist}										
+										</select>
+										<span class="help-inline col-xs-12 col-sm-7">
+											<span class="middle">请慎重选择用户组</span>
+										</span>
+									</div>
+								</div>
+								<div class="space-4"></div>
+								<div class="form-group">
+									<label class="col-sm-1 control-label no-padding-right"> 用户名 </label>
+									<div class="col-sm-9">
+										<input type="text" name="name" class="rcol-xs-10 col-sm-5" required value="{$info['member_name']}">
+										<span class="help-inline col-xs-12 col-sm-7"></span>
+									</div>
+								</div>
+								<div class="space-4"></div>
+								<div class="form-group">
+									<label class="col-sm-1 control-label no-padding-right"> 用户密码 </label>
+									<div class="col-sm-9">
+										<input type="password" name="password" placeholder="用户密码" class="col-xs-10 col-sm-5">
+										<span class="help-inline col-xs-12 col-sm-7">
+											<span class="middle">留空不修改</span>
+										</span>
+									</div>
+								</div>
+								<div class="space-4"></div>								
+								<div class="form-group">
+									<label class="col-sm-1 control-label no-padding-right"> 用户头像 </label>
+									<div class="col-sm-4">
+										
+										{if condition="$info['photo']"}
+										<div>
+											<div id="photo_img">
+											<img src="{$info['photo']}" width="100" height="100">
+										</div>
+										<a class="btn btn-danger" onclick="showinput(this)">更换</a>
+										</div>										
+										{/if}	
+										<div {notempty name="$info['photo']"} style="display:none"{/notempty} >
+										<input type="file" id="id-input-file-2" name="img"/>
+											
+										</div>								
+										
+									</div>
+								</div>
+								<div class="space-4"></div>
+								<div class="form-group">
+									<label class="col-sm-1 control-label no-padding-right"> 状态 </label>
+									<div class="col-sm-9">
+										<select class="multiselect" name="status">
+											<option selected value="0" {if condition="$info['status'] eq 0"} selected {/if}>新入职</option>
+											<option value="1" {if condition="$info['status'] eq 1"} selected {/if}>转正</option>
+											<option value="2" {if condition="$info['status'] eq 2"} selected {/if}>离职</option>
+										</select>
+									</div>
+								</div>
+								<div class="space-4"></div>
+								<div class="form-group">
+									<label class="col-sm-1 control-label no-padding-right"> 性别 </label>
+									<div class="col-sm-9">
+										<select class="multiselect" name="sex" required>
+											<option selected value="1" {if condition="$info['sex'] eq 1"} selected {/if}>男</option>
+											<option value="2" {if condition="$info['sex'] eq 2"} selected {/if}>女</option>
+										</select>
+									</div>
+								</div>
+								<div class="space-4"></div>
+								<div class="form-group">
+									<label class="col-sm-1 control-label no-padding-right"> 直属领导 </label>
+									<div class="col-sm-9">
+										<select class="multiselect" name="leader" required>
+											<option value="">请选择</option>
+											{foreach name="members" id="val"}
+											<option value="{$val['id']}" {if condition="$info['leader_id'] eq $val['id']"}selected{/if}>{$val['member_name']}</option>
+											{/foreach}
+										</select>
+									</div>
+								</div>
+								<div class="space-4"></div>
+								<div class="form-group">
+									<label class="col-sm-1 control-label no-padding-right" for="id-date-picker-1">生日</label>
+									<div class="col-xs-9 col-sm-9">
+										<div class="input-group col-xs-5">
+											<input class="form-control" name="birthday" id="birthday" type="text" data-date-format="dd-mm-yyyy"  value="{$info['birthday']}" />
+											<span class="input-group-addon">
+												<i class="ace-icon fa fa-calendar bigger-110"></i>
+											</span>
+										</div>
+									</div>
+								</div>
+								<div class="space-4"></div>
+								<div class="form-group">
+									<label class="col-sm-1 control-label no-padding-right"> 电话号码 </label>
+									<div class="col-sm-9">
+										<input type="text" placeholder="电话号码" name="telphone" value="{$info['telphone']}" class="col-xs-10 col-sm-5">
+										<span class="help-inline col-xs-12 col-sm-7">
+											<span class="middle"></span>
+										</span>
+									</div>
+								</div>
+								<div class="space-4"></div>
+								<div class="form-group">
+									<label class="col-sm-1 control-label no-padding-right"> Q&nbsp;&nbsp;Q </label>
+									<div class="col-sm-9">
+										<input type="text" placeholder="QQ" name="QQ" value="{$info['QQ']}" class="col-xs-10 col-sm-5">
+										<span class="help-inline col-xs-12 col-sm-7">
+											<span class="middle"></span>
+										</span>
+									</div>
+								</div>
+								<div class="space-4"></div>
+								<div class="form-group">
+									<label class="col-sm-1 control-label no-padding-right">E-mail </label>
+									<div class="col-sm-9">
+										<input type="email" placeholder="E-mail" name="email" value="{$info['email']}" class="col-xs-10 col-sm-5">
+										<span class="help-inline col-xs-12 col-sm-7">
+											<span class="middle"></span>
+										</span>
+									</div>
+								</div>
+								<div class="space-4"></div>
+								<div class="col-md-offset-2 col-md-9">
+									<button class="btn btn-info" type="submit"><i class="icon-ok bigger-110"></i>提交</button>&nbsp; &nbsp; &nbsp;
+									<button class="btn" type="reset"><i class="icon-undo bigger-110"></i>重置</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		{include file="common\footer"}   
+	</div>
+	{include file="common\script"}
+
+</body>
+<style type="text/css">
+	label.error{
+		color:red;
+	}
+
+	#photo_img{
+		display:inline-block;
+		width:100px;
+		height: 100px;
+	}
+	#photo_img img{
+		width:100%;
+		height:100%;
+	}
+								
+</style>
+<script src="__JS__/ace/elements.fileinput.js"></script>
+<script src="__JS__/date-time/bootstrap-datepicker.js"></script>
+<script src="__JS__/jquery.validate.js"></script>
+<script type="text/javascript">
+		jQuery(function ($) {
+			$('#birthday').datepicker({
+				format: 'yyyy-mm-dd',
+				weekStart: 1,
+				autoclose: true,
+				todayBtn: 'linked',
+				language: 'cn'
+			});
+		});
+		$('#id-input-file-2').ace_file_input({
+			no_file:'未选择文件 ...',
+			btn_choose:'选择',
+			btn_change:'更换',
+			droppable:false,
+			onchange:null,
+			thumbnail:false
+		});
+		//更换头像
+		function showinput(obj){
+			$(obj).parent().next().show();
+			$(obj).parent().remove();
+		}
+
+
+		//数据验证
+		$("#memberForm").validate({
+		rules:{
+			group_id:"required",
+			// password:"required",
+			name:{
+				required:true,
+				minlength:2,
+				maxlength:10,
+			},	
+			telphone:{
+				digits:true,
+				rangelength:[11,11],
+			},//整数
+			email:"email",//邮箱
+	
+
+		},
+		messages:{
+			group_id:"请选择所属用户组",
+			name:{
+				required:"请填写用户组名称",
+				minlength:"用户组名称不能小于2个字符",
+				maxlength:"用户组名称不能超过10个字符"
+			},
+			// sex:"请选择性别",
+			/*password:{
+				// required:"请输入密码",
+				minlength:"密码不能小于6个字符",
+				maxlength:"密码不能超过20个字符"
+			},*/
+			telphone:{
+				digits:"格式号码错误",
+				rangelength:"长度错误",
+			},
+			email:"邮箱格式错误"
+		}
+	});
+	</script>
+</html>
+	

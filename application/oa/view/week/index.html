@@ -1,0 +1,85 @@
+{layout name="layout"}
+<div class="main-content">
+	<div class="main-content-inner">
+		<div class="breadcrumbs" id="breadcrumbs">
+			<ul class="breadcrumb">
+				<li>
+					<i class="ace-icon fa fa-home home-icon"></i>
+					<a href="/">首页</a>
+				</li>
+				<li>
+					<a href="#">周报管理</a>
+				</li>
+				<li class="active">我的周报</li>
+			</ul>
+		</div>
+		<div class="page-content">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="row">
+						<div class="cf">
+							<a class="btn btn-info" href="{:url('week/add')}">新增</a>
+						</div>
+						<div class="space-4"></div>
+						<form id="form" method="post" action="">
+							<table class="table table-striped table-bordered table-hover">
+								<thead>
+									<tr>
+										<th class="center">编号</th>
+										<th class="center">标题</th>
+										<th class="center">作者</th>										
+										<th class="center">分类</th>										
+										<th class="center">添加时间</th>
+										<th class="center">状态</th>									
+										<th class="center">操作</th>
+									</tr>
+								</thead>
+								<tbody>
+									{foreach $data as $key=>$value}
+									<tr>
+										<td  class="center">{$key+1}</td>
+										<td  class="center">{$value['title']}</td>
+										<td  class="center">{$name[$value['add_userid']]}</td>
+										<td  class="center">{$type[$value['type_id']]}</td>
+										<td  class="center">{$value['add_time'] | date="Y-m-d H:s",### }</td>
+										<td  class="center status">{if condition="$value['status'] eq 0"}新提交{elseif condition="$value['status'] eq 1"}已审批{elseif condition="$value['status'] eq 2"}驳回{/if}</td>
+										<td  class="center">
+											{if condition="$value['add_userid'] neq $Think.session.userinfo.id "}
+											<a href="{:url('week/cat',array('id'=>$value['id']))}">查看</a>
+											{else}
+											<a href="{:url('week/edit',array('id'=>$value['id']))}" {if condition="$value['status'] eq 1 "}style="pointer-events: none; color:#999;"{/if}>修改</a>&nbsp;|
+											<a class="del" href="javascript:;" title="删除" data-id="{$value['id']} " >删除</a>
+											{/if}
+										</td>
+									</tr>
+									{/foreach}
+								</tbody>
+								
+							</table>
+							<div style="text-align: center; margin-left:-60px;">{$pager}</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(".del").click(function(){
+		var obj = $(this);
+		var id = $(obj).attr("data-id");
+		console.log(id);
+		layer.confirm("确定要删除该用户吗?",function(index){
+			// alert(index);
+			$.get('{:url("week/del")}',{wid:id},function(res){
+
+				if (res.code == 1) {
+					layer.close(index);	
+					window.location.href = res.url;				
+				}
+
+			});
+		});
+	});
+</script>
+		

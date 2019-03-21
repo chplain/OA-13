@@ -1,0 +1,148 @@
+{layout name="layout"}		
+<div class="main-content">
+			<div class="main-content-inner">
+				<div class="breadcrumbs" id="breadcrumbs">
+					<ul class="breadcrumb">
+						<li>
+							<i class="ace-icon fa fa-home home-icon"></i>
+							<a href="/">首页</a>
+						</li>
+						<li>
+							<a href="#">权限规则</a>
+						</li>
+						<li class="active">修改权限</li>
+					</ul>
+				</div>
+				<div class="page-content">
+					<div class="row">
+						<div class="col-xs-12">
+							<form id="ruleForm" class="form-horizontal" method="POST">
+								<input type="hidden" name="id" value="{$info['id']}">
+								<div class="form-group">
+									<label class="col-sm-1 control-label no-padding-right" for="form-field-10">上级权限 </label>
+									<div class="col-sm-9">
+										<select class="rcol-xs-10 col-sm-5" name="pid" required>
+											<option value="">请选择权限</option>
+											<option value="0" {if condition="$info['pid'] eq 0"}selected{/if}>顶级权限</option>							
+											{foreach $data as $key=>$val}
+											<option value="{$val['id']}" {if condition="$info['pid'] eq $val['id']"} selected {/if}>{$val['per_name']}</option>
+											{/foreach}
+										</select>
+										<span class="help-inline col-xs-12 col-sm-7">
+											<span class="middle"></span>
+										</span>
+									</div>
+								</div>
+								<div class="space-4"></div>
+								<div class="form-group">
+									<label class="col-sm-1 control-label no-padding-right"> 权限名称 </label>
+									<div class="col-sm-9">
+										<!-- <input type="text" class="rcol-xs-10 col-sm-5" name="per_name" required minlength="2" maxlength="10"> -->
+										<input type="text" class="rcol-xs-10 col-sm-5" name="per_name" required value="{$info['per_name']}">
+										<span class="help-inline col-xs-12 col-sm-7">
+											<span class="middle"></span>
+										</span>
+									</div>
+								</div>
+								<div class="space-4"></div>
+								<div class="form-group">
+									<label class="col-sm-1 control-label no-padding-right"> 链接 </label>
+									<div class="col-sm-9">
+										<input type="text" name="address" value="{$info['address']}" placeholder="链接，如：Index/index" class="col-xs-10 col-sm-5">
+										<span class="help-inline col-xs-12 col-sm-7">
+											<span class="middle"></span>
+										</span>
+									</div>
+								</div>
+								<div class="space-4"></div>
+								<div class="form-group">
+									<label class="col-sm-1 control-label no-padding-right">ICON图标 </label>
+									<div class="col-sm-9">
+										<input type="text" name="icon" value="{$info['icon']}" placeholder="ICON图标" class="col-xs-10 col-sm-5">
+										<span class="help-inline col-xs-12 col-sm-7">
+											<span class="middle"><a href="http://fontawesome.dashgame.com/" target="_blank">Font Awesome图标库</a></span>
+										</span>
+									</div>
+								</div>
+								<div class="space-4"></div>
+								<div class="form-group">
+									<label class="col-sm-1 control-label no-padding-right"> 排序 </label>
+									<div class="col-sm-9">
+										<input type="text" name="sort" value="{$info['sort']}" placeholder="" class="col-xs-10 col-sm-5">
+										<span class="help-inline col-xs-12 col-sm-7">
+											<span class="middle">越小越靠前</span>
+										</span>
+									</div>
+								</div>
+								<div class="space-4"></div>
+								<div class="form-group">
+									<label class="col-sm-1 control-label no-padding-right"> 左侧显示 </label>
+									<div class="radio">
+										<label>
+											<input type="radio" class="ace" value="1" name="is_show" {if condition="$info['is_show'] eq 1"}checked{/if}>
+											<span class="lbl"> 显示</span>
+										</label>
+										<label>
+											<input type="radio" class="ace" value="2" name="is_show" {if condition="$info['is_show'] eq 2"}checked{/if}>
+											<span class="lbl"> 不显示</span>
+										</label>
+									</div>
+								</div>
+								<div class="space-4"></div>
+								<div class="form-group">
+									<label class="col-sm-1 control-label no-padding-right"> 是否启用 </label>
+									<div class="radio">
+										<label>
+											<input type="radio" class="ace" value="1" checked name="status" {if condition="$info['status'] eq 1"}checked{/if}>
+											<span class="lbl"> 启用</span>
+										</label>
+										<label>
+											<input type="radio" class="ace" value="2" name="status" {if condition="$info['status'] eq 2"}checked{/if}>
+											<span class="lbl"> 禁用</span>
+										</label>
+									</div>
+								</div>
+								<div class="space-4"></div>
+								<div class="col-md-offset-2 col-md-9">
+									<button class="btn btn-info" type="submit"><i class="icon-ok bigger-110"></i>提交</button>&nbsp; &nbsp; &nbsp;
+									<button class="btn" type="reset"><i class="icon-undo bigger-110"></i>重置</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+</div>
+<style type="text/css">
+	label.error{
+		color:red;
+		margin-left:10px;
+	}
+</style>
+<script type="text/javascript" src="__JS__/jquery.validate.js"></script>
+<script type="text/javascript">
+	/*
+	在要验证的表单元素添加required是h5的表单验证方式
+	在添加required基础上,引入validate.js文件,对表单进行验证,可以提示文字方式如下
+	当验证规则写在行间时,当输入达到最大值不能再输入,如下形式,可以继续输入,但提示错误
+	 */
+	$("#ruleForm").validate({
+		rules:{
+			pid:"required",
+			per_name:{
+				required:true,
+				minlength:2,
+				maxlength:10,
+			}
+
+		},
+		messages:{
+			pid:"请选择上级权限规则",
+			per_name:{
+				required:"请填写权限规则名称",
+				minlength:"权限规则名称不能少于两个字符",
+				maxlength:"权限规则名称不能超过十个字符"
+			}
+		}
+	});
+</script>

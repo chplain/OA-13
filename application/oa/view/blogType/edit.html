@@ -1,0 +1,53 @@
+
+
+    <!DOCTYPE html>
+<html lang="en">
+{include file="common\head"}
+<script type="text/javascript" charset="utf-8" src="__UEDIT__/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="__UEDIT__/ueditor.all.min.js"> </script>
+<!--建议手动加在语言，避免在ie下有时因为加载语言失败导致编辑器加载失败-->
+<!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
+ <script type="text/javascript" charset="utf-8" src="__UEDIT__/lang/zh-cn/zh-cn.js"></script>
+<body class="no-skin">
+	{include file="common\navbar"}
+	<div class="main-container" id="main-container">
+		{include file="common\sidebar"}
+		<div class="main-content">
+			<div class="main-content-inner">
+				<div class="breadcrumbs" id="breadcrumbs">
+					<ul class="breadcrumb">
+						<li>
+							<i class="ace-icon fa fa-home home-icon"></i>
+							<a href="index.html">首页</a>
+						</li>
+						<li>
+							<a href="{:url('blogtype/index')}">博客分类</a>
+						</li>
+						<li class="active">分类修改</li>
+					</ul>
+				</div>
+				<div class="page-content">			
+					<div style="width:726px;margin:0px;text-align:center;">
+						<h3 style="margin-left:60px;">分类修改</h3>
+						<form method="POST" action="{:url('blogtype/edit')}" class='form-horizontal'>
+						<input type="hidden" name="id" value="{$info['id']}">						
+						 	<div class="form-group">
+								<label class="col-sm-2 control-label" for="a">分类名称:</label>
+								<div class="col-sm-10">
+								<input type="text" name="type" value="{$info['type']}" class='form-control' id="a">	
+								</div>
+						 	</div>
+							<input type="submit" class="btn btn-info">
+							<input type="reset" class="btn">
+							</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		{include file="common\footer"}   
+	</div>
+	{include file="common\script"}
+
+</body>
+</html>
+	

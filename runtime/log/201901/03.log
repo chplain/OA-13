@@ -1,0 +1,74 @@
+---------------------------------------------------------------
+[ 2019-01-03T20:44:15+08:00 ] 127.0.0.1 GET www.oa.com/
+[运行时间：0.523161s] [吞吐率：1.91req/s] [内存消耗：2,885.02kb] [文件加载：57]
+[ info ] [ LANG ] D:\myBlog_web\houtai\OAofficeSystem\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.oa.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ace_settings=%7B%22sidebar-collapsed%22%3A-1%7D',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '5.2.2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\oa\controller\Index->index[ D:\myBlog_web\houtai\OAofficeSystem\application\oa\controller\Index.php ]
+[ info ] [ VIEW ] D:\myBlog_web\houtai\OAofficeSystem\public/../application/oa\view\.\index.html [ array (
+  0 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127356s ] mysql:host=127.0.0.1;dbname=tp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_groups` [ RunTime:0.109117s ]
+[ sql ] [ SQL ] SELECT `permission` FROM `oa_groups` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.007146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `oa_rule` [ RunTime:0.051007s ]
+[ sql ] [ SQL ] SELECT * FROM `oa_rule` WHERE  `is_show` = '1'  AND `status` = '1' [ RunTime:0.002205s ]
+---------------------------------------------------------------
+[ 2019-01-03T20:44:15+08:00 ] 127.0.0.1 GET www.oa.com/__IMAGES__/user.png
+[运行时间：0.110710s] [吞吐率：9.03req/s] [内存消耗：1,382.83kb] [文件加载：40]
+[ info ] [ LANG ] D:\myBlog_web\houtai\OAofficeSystem\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'oa'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'oa',
+    1 => '__IMAGES__',
+    2 => 'user.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.oa.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ace_settings=%7B%22sidebar-collapsed%22%3A-1%7D; PHPSESSID=h6jiib6l98sp8fnjkpig2c2un2',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://www.oa.com/',
+  'x-lantern-version' => '5.2.2',
+)
+[ info ] [ PARAM ] array (
+  '__IMAGES__/user_png' => '',
+)
+[ info ] [ LOG ] INIT File
